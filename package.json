@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "blob.js": "andyinabox/Blob.js",
-    "filesaver.js": "andyinabox/FileSaver.js"
+    "exdat": "^0.6.2",
+    "filesaver.js": "andyinabox/FileSaver.js",
+    "stats.js": "0.0.14-master"
   }
 }
