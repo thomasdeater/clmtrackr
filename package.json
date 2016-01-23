@@ -7,5 +7,9 @@
     "grunt": "~0.4.2",
     "grunt-contrib-concat": "~0.3.0",
     "grunt-contrib-uglify": "~0.2.7"
+  },
+  "dependencies": {
+    "blob.js": "andyinabox/Blob.js",
+    "filesaver.js": "andyinabox/FileSaver.js"
   }
 }
