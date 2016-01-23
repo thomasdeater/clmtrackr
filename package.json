@@ -12,6 +12,7 @@
     "blob.js": "andyinabox/Blob.js",
     "exdat": "^0.6.2",
     "filesaver.js": "andyinabox/FileSaver.js",
+    "numeric": "^1.2.6",
     "stats.js": "0.0.14-master"
   }
 }
