@@ -29,8 +29,8 @@ var jsfeat_face = function(image) {
       work_ctx.drawImage(image, 0, 0);
     } 
     var imageData = work_ctx.getImageData(0, 0, w, h);
-                  
-    jsfeat.imgproc.grayscale(imageData.data, img_u8.data);
+    
+    jsfeat.imgproc.grayscale(imageData.data, w, h, img_u8);
     
     jsfeat.imgproc.equalize_histogram(img_u8, img_u8);
     
