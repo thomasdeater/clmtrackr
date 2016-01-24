@@ -3,6 +3,18 @@ clmtrackr
 
 ![tracked face](http://auduno.github.com/clmtrackr/media/clmtrackr_03.jpg)
 
+npm fork
+--------
+
+This fork exposes the clmtrackr library for use with npm. It can be used as a browser global as seen in examples, or via browserify etc as an npm module. To install:
+
+```bash
+npm install andyinabox/clmtrackr
+```
+A pull request has been submitted to the main project, but I'm not sure if/when it will be integrated so this will do for now.
+
+---
+
 **clmtrackr** is a javascript library for fitting facial models to faces in videos or images. It currently is an implementation of *constrained local models* fitted by *regularized landmark mean-shift*, as described in [Jason M. Saragih's paper](http://dl.acm.org/citation.cfm?id=1938021). **clmtrackr** tracks a face and outputs the coordinate positions of the face model as an array, following the numbering of the model below:
 
 [![facemodel_numbering](http://auduno.github.com/clmtrackr/media/facemodel_numbering_new_small.png)](http://auduno.github.com/clmtrackr/media/facemodel_numbering_new.png)
