@@ -5,7 +5,7 @@
   "scripts": {
     "build": "browserify js/index.js -s clm -o ./clmtrackr.js; uglifyjs ./clmtrackr.js -m -r 'clm,clmtrackr' -o ./clmtrackr.min.js"
   },
-  "main": "js/index.js",
+  "main": "clmtracker.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/auduno/clmtrackr.git"
