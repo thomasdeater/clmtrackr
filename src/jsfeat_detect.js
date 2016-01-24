@@ -4,7 +4,7 @@ var jsfeat = require('jsfeat');
  * this cascade is derived from https://github.com/mtschirs/js-objectdetect implementation
  * @author Martin Tschirsich / http://www.tu-darmstadt.de/~m_t
  */
-var frontalface = require('../filters/frontalface.json');
+var frontalface = require('./filters/frontalface.json');
 
 var jsfeat_face = function(image) {
   

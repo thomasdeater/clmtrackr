@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Javascript library for precise tracking of facial features via Constrained Local Models",
   "scripts": {
-    "build": "browserify src/index.js -s clm -o build/clmtrackr.js; uglifyjs build/clmtrackr.js -m -r 'clm,clmtrackr' -o build/clmtrackr.min.js"
+    "build": "browserify src/index.js -s clm -o ./clmtrackr.js; uglifyjs ./clmtrackr.js -m -r 'clm,clmtrackr' -o ./clmtrackr.min.js"
   },
   "main": "src/index.js",
   "repository": {
