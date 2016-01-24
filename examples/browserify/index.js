@@ -1,4 +1,4 @@
-var clmtrackr = require('../../src/index.js');
+var clmtrackr = require('../../js/index.js');
 var model = require('../../models/model_pca_20_svm.json');
 var videoGrabber = require('./videoGrabber.js');
 var raf = require('raf');
