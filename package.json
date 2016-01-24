@@ -16,9 +16,6 @@
     "exdat": "^0.6.2",
     "blob.js": "andyinabox/Blob.js",
     "filesaver.js": "andyinabox/FileSaver.js",
-    "grunt": "~0.4.2",
-    "grunt-contrib-concat": "~0.3.0",
-    "grunt-contrib-uglify": "~0.2.7",
     "uglify": "^0.1.5",
     "raf": "^3.1.0",
     "stats.js": "0.0.14-master"
